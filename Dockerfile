@@ -11,6 +11,6 @@ RUN apk add --no-cache curl py-pip python curl python-dev pwgen \
 
 COPY entrypoint /entrypoint
 
-EXPOSE 8388
+EXPOSE 4444
 
 CMD ["sh","/entrypoint"]
